@@ -1,0 +1,45 @@
+.number_counter_wrap{
+    padding: 80px 0;
+}
+.number_counter ul{
+    margin: 0 -10px;
+}
+.number_counter ul li{
+    width: 25%;
+    padding: 0 10px;
+    float: left;
+}
+/* .number_counter_grid{
+    background:#1a1a1c;
+    padding: 30px;
+    text-align: center;
+    border-radius: 5px;
+} */
+.number_counter_grid{
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #c1c8d3, -5px -5px 15px #ffffff;
+    padding: 20px;
+}
+.number_counter_grid strong{
+    font-size: 30px;
+    line-height: 1;
+    color: #bb0801;
+    padding-bottom: 20px;
+    display: inline-block;
+    vertical-align: baseline;
+}
+.number_counter_grid h5{
+    font-size: 24px !important;
+    line-height: 1 !important;
+    color: #008C72 !important;
+    font-weight:700;
+}
+.number_counter_grid p{
+    margin-bottom: 0;
+    color: #171717;
+}
+.counter__head h2{
+    text-align: center;
+    margin-bottom: 30px;
+}
