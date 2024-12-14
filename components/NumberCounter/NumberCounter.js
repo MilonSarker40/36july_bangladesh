@@ -5,25 +5,27 @@ import Classes from '../../styles/counter.module.css';
 const NumberCounter = () => {
   const data = [
     {
-        Number:'1600',
-        text:'নিহত',
-        dsc:'২০২৪ সালের জুলাইয়ে',
-    },
-    {
         Number:'2000',
         text:'নিহত',
-        dsc:'২০২৪ সালের জুলাইয়ে',
+        dsc:'আন্দোলনরত ও চিকিৎসারত অবস্থায়',
     },
     {
-        Number:'2000',
-        text:'নিহত',
-        dsc:'২০২৪ সালের জুলাইয়ে',
+        Number:'34000' ,
+        text:'মোট আহত',
+        dsc:'১৯ জুলাই - ৫ আগস্ট',
     },
     {
-        Number:'2000',
-        text:'নিহত',
-        dsc:'২০২৪ সালের জুলাইয়ে',
+        Number:'14000',
+        text:'স্থায়ী পঙ্গু',
+        dsc:'১৯ জুলাই - ৫ আগস্ট',
     },
+
+    {
+        Number:'87',
+        text:'গণ কবর',
+        dsc:'১৯ জুলাই - ৫ আগস্ট',
+    },
+   
   ];
 
   return (
