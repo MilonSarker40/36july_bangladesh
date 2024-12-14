@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@100..800&display=swap');
+@import "swiper/swiper-bundle.css";
 
 
 
@@ -208,7 +209,7 @@ language__switcher
 }
 .slide-item img{
 	width: 100%;
-	height: 600px;
+	height: 500px;
 	object-fit: cover;
 }
 
@@ -316,6 +317,54 @@ language__switcher
   .slick-dots li button:before {
 	color: #333;
   }
+
+ /*
+ -----------------
+  July Gallery
+ -----------------
+ */
+ .grid-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 10px;
+  }
+  
+  .grid-column {
+	display: flex;
+	flex-direction: column;
+  }
+  
+  .grid-item {
+	position: relative;
+	width: 100%;
+	height: 100%;
+  }
+  
+  .grid-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+  }
+  
+  .grid-item.top {
+	height: 250px;
+  }
+  
+  .grid-item.middle {
+	height: 300px;
+  }
+  
+  .grid-item.bottom-left {
+	height: 200px;
+  }
+  
+  .grid-item.bottom-right {
+	height: 200px;
+  }
+  
+  
+  
+  
   
   
   
