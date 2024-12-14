@@ -131,6 +131,17 @@ h6{
 
 
 /*
+--------------------
+ Common Head
+-------------------- 
+*/
+.our_head h2{
+	color: #fff !important;
+	margin: 0;
+	margin-bottom: 30px;
+}
+
+/*
 ---------------------
 language__switcher
 --------------------- 
@@ -258,6 +269,56 @@ language__switcher
 .read-more-btn button:hover {
 	background-color: #bb0801;
 }
+
+/*
+--------------------
+	Team Slider
+-------------------- 
+*/
+.team-slider {
+	margin: 0 -10px;
+	padding: 2rem 0;
+  }
+  .team-slider .slick-dots {
+		bottom: -40px !important;
+	}
+  .team-member-item{
+	padding: 0 10px;
+  }
+  .team-member {
+	text-align: center;
+	padding: 1rem;
+	background-color: rgb(20 20 22);
+	border-radius: 8px;
+	box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .team-member img{
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 5px;
+  }
+  .team-member h4 {
+	margin: 0 !important;
+	font-size:18px !important;
+	line-height: 1 !important;
+	color: #008C72 !important;
+	margin-top: 20px !important;
+	margin-bottom: 10px !important;
+  }
+  
+  .team-member p {
+	font-size: 14px;
+	color: #fff;
+	margin-bottom: 10px;
+  }
+  
+  .slick-dots li button:before {
+	color: #333;
+  }
+  
+  
+  
   
   
 

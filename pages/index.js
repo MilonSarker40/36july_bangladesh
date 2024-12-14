@@ -2,6 +2,7 @@ import AboutUs from "@/components/AboutUs/AboutUs";
 import Gallery from "@/components/Gallery/Gallery";
 import Header from "@/components/Header/Header";
 import NumberCounter from "@/components/NumberCounter/NumberCounter";
+import OurShaheed from "@/components/OurShaheed/OurShaheed";
 import Slider from "@/components/Slider/Slider";
 // import { useRouter } from 'next/router';
 
@@ -19,6 +20,7 @@ const Home = () => {
       <AboutUs />
       <Gallery />
       <NumberCounter />
+      <OurShaheed />
     </>
   );
 };
