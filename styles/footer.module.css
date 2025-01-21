@@ -1,0 +1,107 @@
+.footer_sec_wrap{
+    background-color: rgb(20 20 22);
+    padding: 60px 0 0;
+}
+.footer_wrap{
+    padding-bottom: 40px;
+}
+.footer_wrap > ul > li{
+    width: 25%;
+    float: left;
+}
+.ftr_logo a{
+    display: inline-block;
+    vertical-align: baseline;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+.ftr_logo a img{
+    max-width: 100px;
+    width: 100%;
+}
+.ftr_logo p{
+    font-size: 14px;
+    line-height: 1.5;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.ftr_logo ul{
+    margin: 0 -10px;
+}
+.ftr_logo ul li{
+    float: left;
+    padding: 0 10px;
+}
+.ftr_logo ul li a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 1;
+    color: #fff;
+    width: 35px;
+    height: 35px;
+    border-radius: 20px;
+    background:#008C72;
+    transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+.ftr_logo ul li a:hover{
+    background: #bb0801;
+}
+.ftr_col_menu{
+    padding-left: 100px;
+}
+.ftr_col_post_menu h5,
+.ftr_col_menu h5{
+    margin: 0 !important;
+    font-size: 18px !important;
+    line-height: 1 !important;
+    color: #008C72 !important;
+    margin-bottom: 20px !important;
+}
+.ftr_col_menu ul li{
+    padding-bottom: 10px;
+}
+.ftr_col_menu ul li a{
+    display:inline-block;
+    vertical-align: baseline;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 1.2;
+    color: #fff;
+}
+.ftr_col_menu ul li a i{
+    font-size: 20px;
+}
+.ftr_col_post_menu ul{
+    margin: 0 -5px;
+}
+.ftr_col_post_menu ul li{
+    width: 33.3333%;
+    float: left;
+    padding: 0 5px 10px;
+}
+.ftr_col_post_menu ul li a{
+    display: inline-block;
+    vertical-align: baseline;
+    text-decoration: none;
+}
+.ftr_col_post_menu ul li a img{
+    border-radius: 5px;
+}
+.footer_btm_wrap{
+    border-top: 1px solid#ddd;
+    padding: 30px 0;
+}
+.footer_btm{
+    text-align: center;
+}
+.footer_btm p{
+    margin-bottom: 0;
+    font-size: 14px;
+    line-height: 1;
+    color: #fff;
+}

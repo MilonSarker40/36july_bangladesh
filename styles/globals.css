@@ -323,44 +323,219 @@ language__switcher
   July Gallery
  -----------------
  */
- .grid-container {
-	display: grid;
-	grid-template-columns: repeat(3, 1fr);
-	gap: 10px;
-  }
-  
-  .grid-column {
+.grid-layout{
+	padding:15px;
+}
+.masonry_grid_column_wrap{
 	display: flex;
-	flex-direction: column;
-  }
-  
-  .grid-item {
-	position: relative;
+	/* justify-content: space-between;
+	align-items: center; */
+}
+.masonry_grid_column_1{
+	width: 40%;
+	float: left;
+}
+.masonry_grid_column_2{
+	width: 30%;
+}
+.masonry_grid_column_3{
+	width: 30%;
+}
+.masonry_grid_1 img{
 	width: 100%;
-	height: 100%;
-  }
-  
-  .grid-item img {
-	width: 100%;
-	height: 100%;
+	height: 400px;
 	object-fit: cover;
-  }
-  
-  .grid-item.top {
-	height: 250px;
-  }
-  
-  .grid-item.middle {
+	border-radius: 10px;
+}
+.masonry_grid_lft_img{
+	width: 50%;
+	float: left;
+}
+.masonry_grid_rgt_img{
+	width: 50%;
+	float: right;
+}
+.masonry_grid_rgt_img img,
+.masonry_grid_lft_img img{
+	width: 100%;
 	height: 300px;
-  }
+	object-fit: cover;
+	border-radius: 10px;
+}  
+.masonry_grid_5 img,
+.masonry_grid_3 img{
+	width: 100%;
+	height: 192px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+.masonry_grid_4 img{
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+.masonry_grid_7 img,
+.masonry_grid_6 img{
+	width: 100%;
+	height: 350px;
+	object-fit: cover;
+	border-radius: 10px;
+}
+
+/*
+------------------------
+ Shaheed Kobita
+------------------------ 
+*/
+.shaheed_kobita_sec_wrap{
+    background: #fbefcc;
+    padding: 80px 0 100px;
+}
+.shaheed_kobita_head{
+	padding-bottom: 30px;
+}
+.shaheed_kobita_head h2{
+	margin-bottom: 0;
+}
+.shaheed_kobita_wrap{
+	margin: 0 -10px;
+}
+.shaheed_kobita_slide_item{
+	padding: 0 10px;
+}
+.shaheed_kobita_slide_grid{
+    background: #fff;
+    border-radius: 5px;
+	box-shadow: 0 20px 50px 0 rgba(28,9,80,.07);
+	padding: 30px 10px;
+	text-align: center;
+}
+.shaheed_kobita_slide_grid h5{
+	font-size: 20px !important;
+	line-height: 1.2 !important;
+	margin-bottom: 15px !important;
+}
+.shaheed_kobita_slide_grid h6{
+	font-size: 16px !important;
+	line-height: 1.1 !important;
+	margin-bottom: 20px !important;
+}
+.shaheed_kobita_slide_grid p{
+	font-size: 14px !important;
+	line-height: 1.2 !important;
+	margin-bottom: 10px;
+}
+.shaheed_kobita_slide_grid button{
+	font-size: 14px;
+	line-height: 1;
+	color: #fff;
+	background: #008C72;
+	padding: 10px 20px;
+	margin-top: 15px;
+	cursor: pointer;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.shaheed_kobita_slide_grid button:hover{
+	background: #bb0801;
+}
+.shaheed_kobita_wrap .slick-dots {
+    bottom: -40px !important;
+}
+/*
+-----------------
+ Blog Post Slider
+----------------- 
+*/
+.blog_post_sec_wrap{
+	background-color: rgb(26 26 28);
+	padding: 80px 0;
+}
+.blog_post_wrap .slick-dots {
+    bottom: -40px !important;
+}
+.blog_post_head h2{
+	color: #fff !important;
+	margin-bottom: 30px;
+}
+.blog_post_slide_item{
+	padding: 0 10px;
+}
+.blog_post_slide_item_innr{
+    padding: 15px;
+    background-color: rgb(20 20 22);
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.blog_post_slide_item:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.blog_post_slide_item_img img {
+    border-radius: 10px;
+    width: 100%;
+    height: 200px;
+	object-fit: cover;
+}
+.blog_post_slide_item_dsc{
+	padding: 20px 10px 20px 0;
+}
+.blog_post_slide_item_dsc h3{
+    font-size: 16px !important;
+	line-height: 1.2 !important;
+	color: #fff !important;
+    margin: 0 0 10px;
+}
+.blog_post_slide_item_dsc h3 a{
+	display: inline-block;
+	vertical-align: baseline;
+	text-decoration: none;
+	color: inherit;
+}
+.blog_post_slide_item_dsc span {
+    display: block;
+    font-size: 14px;
+    color:#008C72;
+    margin-bottom: 15px;
+}
+
+.blog_post_slide_item_dsc p{
+    font-size: 14px;
+	line-height: 1.4;
+    color: #fff;
+	margin-bottom: 15px;
+}
+
+.blog_post_slide_item_dsc > a{
+	display: inline-block;
+	vertical-align: baseline;
+	text-decoration: none;
+	font-size: 14px;
+	line-height: 1.4;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+	background: #008C72;
+	padding: 10px 20px;
+	border-radius: 5px;
+	transition: all 0.5s;
+	-ms-transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+.blog_post_slide_item_dsc > a > i{
+	font-size: 16px;
+	line-height: 1;
+	padding-left: 5px;
+}
+.blog_post_slide_item_dsc > a:hover {
+    color: #fff;
+	background:#bb0801;
+}
+
   
-  .grid-item.bottom-left {
-	height: 200px;
-  }
-  
-  .grid-item.bottom-right {
-	height: 200px;
-  }
   
   
   
